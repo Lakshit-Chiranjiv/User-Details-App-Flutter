@@ -126,7 +126,7 @@ class AppHome extends StatelessWidget {
                     label: Text('GITHUB'),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
-                      padding: MaterialStateProperty.all(EdgeInsets.all(10.0)),
+                      padding: MaterialStateProperty.all(EdgeInsets.all(14.0)),
                     ),
                   ),
                   ElevatedButton.icon(
@@ -135,7 +135,7 @@ class AppHome extends StatelessWidget {
                     label: Text('FOLLOW'),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.redAccent),
-                      padding: MaterialStateProperty.all(EdgeInsets.all(10.0)),
+                      padding: MaterialStateProperty.all(EdgeInsets.all(14.0)),
                     ),
                   ),
                 ],
