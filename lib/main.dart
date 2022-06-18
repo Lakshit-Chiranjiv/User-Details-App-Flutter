@@ -118,7 +118,7 @@ class AppHome extends StatelessWidget {
                   ),
                   ElevatedButton.icon(
                     onPressed: () {},
-                    icon: Icon(Icons.favorite),
+                    icon: Icon(Icons.add),
                     label: Text('FOLLOW'),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.redAccent),
