@@ -22,7 +22,13 @@ class AppHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("User Details App"),
+        title: Text(
+          "User Details App",
+          style: TextStyle(
+            fontFamily: 'Dongle',
+            fontSize: 32.0,
+          ),
+        ),
         backgroundColor: Colors.black,
       ),
       body: Container(
@@ -47,42 +53,46 @@ class AppHome extends StatelessWidget {
                 "NAME",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 20.0,
+                  fontSize: 28.0,
                   letterSpacing: 2.5,
                   decoration: TextDecoration.underline,
+                  fontFamily: 'Dongle',
                 ),
               ),
               Text(
                 "Lakshit Chiranjiv Sagar",
                 style: TextStyle(
-                  fontSize: 30.0,
+                  fontSize: 36.0,
                   color: Colors.white,
+                  fontFamily: 'Dongle',
                 ),
               ),
               SizedBox(
-                height: 30.0,
+                height: 20.0,
               ),
               Text(
                 "ROLE",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 20.0,
+                  fontSize: 28.0,
                   letterSpacing: 2.5,
                   decoration: TextDecoration.underline,
+                  fontFamily: 'Dongle',
                 ),
               ),
               SizedBox(
-                height: 10.0,
+                height: 4.0,
               ),
               Text(
-                "Full Stack Web Developer\n\nApp Developer\n\nUI/UX Designer\n\nBlockchain Developer",
+                "Full Stack Web Developer\nApp Developer\nUI/UX Designer\nBlockchain Developer",
                 style: TextStyle(
-                  fontSize: 16.0,
+                  fontSize: 24.0,
                   color: Colors.white,
+                  fontFamily: 'Dongle',
                 ),
               ),
               SizedBox(
-                height: 30.0,
+                height: 20.0,
               ),
               Row(
                 children: <Widget>[
@@ -97,14 +107,15 @@ class AppHome extends StatelessWidget {
                   Text(
                     "lcsagar19@gmail.com",
                     style: TextStyle(
-                      fontSize: 18.0,
+                      fontSize: 26.0,
                       color: Colors.white,
+                      fontFamily: 'Dongle',
                     ),
                   ),
                 ],
               ),
               SizedBox(
-                height: 30.0,
+                height: 20.0,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -115,7 +126,7 @@ class AppHome extends StatelessWidget {
                     label: Text('GITHUB'),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
-                      padding: MaterialStateProperty.all(EdgeInsets.all(20.0)),
+                      padding: MaterialStateProperty.all(EdgeInsets.all(10.0)),
                     ),
                   ),
                   ElevatedButton.icon(
@@ -124,7 +135,7 @@ class AppHome extends StatelessWidget {
                     label: Text('FOLLOW'),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.redAccent),
-                      padding: MaterialStateProperty.all(EdgeInsets.all(20.0)),
+                      padding: MaterialStateProperty.all(EdgeInsets.all(10.0)),
                     ),
                   ),
                 ],
