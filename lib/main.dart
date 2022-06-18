@@ -82,23 +82,25 @@ class AppHome extends StatelessWidget {
               SizedBox(
                 height: 30.0,
               ),
-              Row(children: <Widget>[
-                Icon(
-                  Icons.email,
-                  color: Colors.black,
-                  size: 24.0,
-                ),
-                SizedBox(
-                  width: 20.0,
-                ),
-                Text(
-                  "lcsagar19@gmail.com",
-                  style: TextStyle(
-                    fontSize: 18.0,
-                    color: Colors.white,
+              Row(
+                children: <Widget>[
+                  Icon(
+                    Icons.email,
+                    color: Colors.black,
+                    size: 24.0,
                   ),
-                ),
-              ]),
+                  SizedBox(
+                    width: 20.0,
+                  ),
+                  Text(
+                    "lcsagar19@gmail.com",
+                    style: TextStyle(
+                      fontSize: 18.0,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
