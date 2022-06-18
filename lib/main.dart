@@ -79,6 +79,13 @@ class AppHome extends StatelessWidget {
               SizedBox(
                 height: 30.0,
               ),
+              Row(children: <Widget>[
+                Icon(
+                  Icons.email,
+                  color: Colors.black,
+                  size: 24.0,
+                ),
+              ]),
             ],
         ),
       ),
