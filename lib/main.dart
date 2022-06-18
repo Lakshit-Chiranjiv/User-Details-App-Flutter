@@ -29,6 +29,9 @@ class AppHome extends StatelessWidget {
         height: double.infinity,
         width: double.infinity,
         color: Colors.grey[600],
+        child: Padding(
+          padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
+        ),
       ),
     );
   }
