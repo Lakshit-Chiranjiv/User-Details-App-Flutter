@@ -31,6 +31,10 @@ class AppHome extends StatelessWidget {
         color: Colors.grey[600],
         child: Padding(
           padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
+          child: Column(
+            children: <Widget>[
+              
+            ],
         ),
       ),
     );
