@@ -47,6 +47,13 @@ class AppHome extends StatelessWidget {
                   decoration: TextDecoration.underline,
                 ),
               ),
+              Text(
+                "Lakshit Chiranjiv Sagar",
+                style: TextStyle(
+                  fontSize: 30.0,
+                  color: Colors.white,
+                ),
+              ),
             ],
         ),
       ),
