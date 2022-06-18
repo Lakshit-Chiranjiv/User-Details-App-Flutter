@@ -32,6 +32,7 @@ class AppHome extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               CircleAvatar(
                 backgroundImage: AssetImage('images/self.jpg'),
