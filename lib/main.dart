@@ -85,6 +85,13 @@ class AppHome extends StatelessWidget {
                   color: Colors.black,
                   size: 24.0,
                 ),
+                Text(
+                  "lcsagar19@gmail.com",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    color: Colors.white,
+                  ),
+                ),
               ]),
             ],
         ),
