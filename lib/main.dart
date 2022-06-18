@@ -69,8 +69,11 @@ class AppHome extends StatelessWidget {
                   decoration: TextDecoration.underline,
                 ),
               ),
+              SizedBox(
+                height: 10.0,
+              ),
               Text(
-                "Full Stack Web Developer\nApp Developer\nUI/UX Designer\nBlockchain Developer",
+                "Full Stack Web Developer\n\nApp Developer\n\nUI/UX Designer\n\nBlockchain Developer",
                 style: TextStyle(
                   fontSize: 16.0,
                   color: Colors.white,
@@ -85,6 +88,9 @@ class AppHome extends StatelessWidget {
                   color: Colors.black,
                   size: 24.0,
                 ),
+                SizedBox(
+                  width: 20.0,
+                ),
                 Text(
                   "lcsagar19@gmail.com",
                   style: TextStyle(
@@ -94,6 +100,7 @@ class AppHome extends StatelessWidget {
                 ),
               ]),
             ],
+          ),
         ),
       ),
     );
