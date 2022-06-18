@@ -101,6 +101,31 @@ class AppHome extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 30.0,
+              ),
+              Row(
+                children: <Widget>[
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(Icons.favorite),
+                    label: Text('GITHUB'),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                      padding: MaterialStateProperty.all(EdgeInsets.all(20.0)),
+                    ),
+                  ),
+                  ElevatedButton.icon(
+                    onPressed: () {},
+                    icon: Icon(Icons.favorite),
+                    label: Text('FOLLOW'),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.redAccent),
+                      padding: MaterialStateProperty.all(EdgeInsets.all(20.0)),
+                    ),
+                  ),
+                ],
+              )
             ],
           ),
         ),
