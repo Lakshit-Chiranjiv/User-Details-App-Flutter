@@ -60,6 +60,25 @@ class AppHome extends StatelessWidget {
               SizedBox(
                 height: 30.0,
               ),
+              Text(
+                "ROLE",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  decoration: TextDecoration.underline,
+                ),
+              ),
+              Text(
+                "Full Stack Web Developer\nApp Developer\nUI/UX Designer\nBlockchain Developer",
+                style: TextStyle(
+                  fontSize: 16.0,
+                  color: Colors.white,
+                ),
+              ),
+              SizedBox(
+                height: 30.0,
+              ),
             ],
         ),
       ),
