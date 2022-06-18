@@ -105,6 +105,7 @@ class AppHome extends StatelessWidget {
                 height: 30.0,
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
                   ElevatedButton.icon(
                     onPressed: () {},
