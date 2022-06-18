@@ -38,6 +38,9 @@ class AppHome extends StatelessWidget {
                 backgroundImage: AssetImage('images/self.jpg'),
                 radius: 50.0,
               ),
+              SizedBox(
+                height: 20.0,
+              ),
               Text(
                 "NAME",
                 style: TextStyle(
@@ -53,6 +56,9 @@ class AppHome extends StatelessWidget {
                   fontSize: 30.0,
                   color: Colors.white,
                 ),
+              ),
+              SizedBox(
+                height: 30.0,
               ),
             ],
         ),
