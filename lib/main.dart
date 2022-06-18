@@ -20,6 +20,11 @@ class AppHome extends StatelessWidget {
   const AppHome({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("User Details App"),
+        backgroundColor: Colors.black,
+      ),
+    );
   }
 }
