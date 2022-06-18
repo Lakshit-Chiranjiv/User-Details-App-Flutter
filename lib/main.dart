@@ -37,7 +37,16 @@ class AppHome extends StatelessWidget {
               CircleAvatar(
                 backgroundImage: AssetImage('images/self.jpg'),
                 radius: 50.0,
-              )
+              ),
+              Text(
+                "NAME",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  decoration: TextDecoration.underline,
+                ),
+              ),
             ],
         ),
       ),
