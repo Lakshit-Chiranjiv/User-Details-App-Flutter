@@ -25,6 +25,11 @@ class AppHome extends StatelessWidget {
         title: Text("User Details App"),
         backgroundColor: Colors.black,
       ),
+      body: Container(
+        height: double.infinity,
+        width: double.infinity,
+        color: Colors.grey[600],
+      ),
     );
   }
 }
