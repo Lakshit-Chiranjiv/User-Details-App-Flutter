@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() => runApp(MyApp());
 
@@ -122,7 +123,7 @@ class AppHome extends StatelessWidget {
                 children: <Widget>[
                   ElevatedButton.icon(
                     onPressed: () {},
-                    icon: Icon(Icons.favorite),
+                    icon: FaIcon(FontAwesomeIcons.github),
                     label: Text('GITHUB'),
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
