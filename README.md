@@ -9,4 +9,4 @@ This is a simple UI project which displays User Data
 
 ### How it Looks
 
-<img src="./images/appss.jpg" alt="app ss" style="width: 600px;"></img>
+<img src="./images/appss.jpg" alt="app ss" style="width: 300px;"></img>
