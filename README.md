@@ -9,6 +9,4 @@ This is a simple UI project which displays User Data
 
 ### How it Looks
 
-<img src="./images/appss.jpg" alt="app ss" style="width: 700px;"></img>
-
-![app ss](https://github.com/Lakshit-Chiranjiv/User-Details-App-Flutter/blob/main/images/appss.jpg)
+<img src="./images/appss.jpg" alt="app ss" style="width: 600px;"></img>
